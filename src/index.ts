@@ -48,12 +48,24 @@ function getNameObject(faker: Faker): NameObject {
     }
 }
 
+/**
+ * returns a deterministic name based on the address. ex: "Felicita Feeney"
+ *
+ * @param address - the address to convert to a name
+ * @returns a first and last name
+ */
 function addressToName(address: string): string {
     const faker = getFaker(address)
     const nameObject = getNameObject(faker)
     return nameObject.name
 }
 
+/**
+ * returns a deterministic name object based on the address
+ *
+ * @param address - the address to convert to a name object
+ * @returns an object with name, first name, middle name, last name, and prefix
+ */
 function addressToNameObject(address: string): NameObject {
     const faker = getFaker(address)
     return getNameObject(faker)
