@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "lib",
+        "strict": true,
+        "baseUrl": "src/",
+        "resolveJsonModule": true,
+        "paths": {
+            "@interfaces": ["interfaces"],
+            "@interfaces/*": ["interfaces/*"],
+            "@utils": ["utils"],
+            "@utils/*": ["utils/*"]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
