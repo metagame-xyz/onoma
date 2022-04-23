@@ -3,6 +3,8 @@
         "target": "es6",
         "module": "commonjs",
         "declaration": true,
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
         "outDir": "lib",
         "strict": true,
         "baseUrl": "src/",

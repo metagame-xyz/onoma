@@ -39,7 +39,9 @@
         "url": "https://github.com/the-metagame/web3-names/issues"
     },
     "homepage": "https://github.com/the-metagame/web3-names#readme",
-    "dependencies": {},
+    "dependencies": {
+        "@faker-js/faker": "^6.2.0"
+    },
     "devDependencies": {
         "@trivago/prettier-plugin-sort-imports": "^3.2.0",
         "@types/jest": "^27.4.1",
