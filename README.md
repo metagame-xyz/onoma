@@ -2,7 +2,7 @@
 
 # onoma
 
-a library for making web3 addresses more human-readable
+a library for deterministically turning web3 addresses into names
 
 # installation
 
