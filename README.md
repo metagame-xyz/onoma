@@ -1,10 +1,23 @@
 [![GitHub license](https://img.shields.io/github/license/the-metagame/onoma)](https://github.com/the-metagame/onoma/blob/main/LICENSE)
 
 # onoma
-
 a library for deterministically turning web3 addresses into names
 
-# installation
+
+# Why?
+
+## Why is it called onoma?
+
+Onomastics is the study of the history and origin of proper names, especially personal names.
+
+(shoutout to [0xmts](https://twitter.com/0xmts) for the name)
+
+## Why did Metagame build this?
+During Metagame's work on making transactions more human readable, we found ourselves often using the first 6 characters of an address as the wallet/contract's "name" when it didn't have an ENS associated with it. This is much harder to make an association with than a *real* name, so thought we'd give every wallet a name!
+
+
+
+# Installation
 
 ```zsh
 npm add onoma
@@ -14,7 +27,7 @@ npm add onoma
 yarn add onoma
 ```
 
-# usage
+# Usage
 
 ```typescript
 import { addressToName, addressToNameObject } from 'onoma'
@@ -41,7 +54,7 @@ console.log(nameObj)
 */
 ```
 
-# notes
+# Notes
 
 Currently only supports 40 char hexidecimal addresses (EVM wallet addresses). Would be great if someone wanted to add support for other types of addresses :)
 
