@@ -1,5 +1,5 @@
 {
-    "name": "web3-names",
+    "name": "onoma",
     "version": "0.1.1",
     "description": "a library for making web3 addresses more human-readable",
     "main": "lib/index.js",
@@ -19,7 +19,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/the-metagame/web3-names.git"
+        "url": "git+https://github.com/the-metagame/onoma.git"
     },
     "files": [
         "lib/**/*"
@@ -36,9 +36,9 @@
     "author": "Brenner Spear",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/the-metagame/web3-names/issues"
+        "url": "https://github.com/the-metagame/onoma/issues"
     },
-    "homepage": "https://github.com/the-metagame/web3-names#readme",
+    "homepage": "https://github.com/the-metagame/onoma#readme",
     "dependencies": {
         "@faker-js/faker": "^6.2.0"
     },

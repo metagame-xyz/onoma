@@ -1,23 +1,23 @@
-[![GitHub license](https://img.shields.io/github/license/the-metagame/web3-names)](https://github.com/the-metagame/web3-names/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/the-metagame/onoma)](https://github.com/the-metagame/onoma/blob/main/LICENSE)
 
-# web3-names
+# onoma
 
 a library for making web3 addresses more human-readable
 
 # installation
 
 ```zsh
-npm add web3-names
+npm add onoma
 ```
 
 ```zsh
-yarn add web3-names
+yarn add onoma
 ```
 
 # usage
 
 ```typescript
-import { addressToName, addressToNameObject } from 'web3-names'
+import { addressToName, addressToNameObject } from 'onoma'
 
 const address = '0x17A059B6B0C8af433032d554B0392995155452E6'
 
