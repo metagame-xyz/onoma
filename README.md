@@ -52,10 +52,19 @@ console.log(nameObj)
     lastName: 'Feeney'
  }
 */
-```
+
+// You can also use abbreviated addresses with looseValidation
+const abbreviatedAddress = '0x17A0...52E6'
+const nameObjFromAbbr = addressToNameObject(abbreviatedAddress, true) // Pass true for looseValidation
+
+console.log(nameObjFromAbbr)
+// Returns a different result than the full address above, but a name nonetheless. Use only when you can't get the full address.
 
 # Notes
 
 Currently only supports 40 char hexidecimal addresses (EVM wallet addresses). Would be great if someone wanted to add support for other types of addresses :)
 
-It can handle addresses with or without the `0x` prefix, and both lowercase and uppercase.
+It can handle:
+- Addresses with or without the `0x` prefix
+- Both lowercase and uppercase addresses
+- Abbreviated addresses in the format `0x1234...5678` when using `looseValidation`
