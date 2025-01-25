@@ -1,6 +1,6 @@
 {
     "name": "onoma",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "a library for making web3 addresses more human-readable",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
